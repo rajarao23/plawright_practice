@@ -139,7 +139,7 @@ export class WebUtil {
   // check box confirmation 
   async isChecked(locator: string): Promise<boolean> {
    return await this.locator(locator).isChecked();
-  }
+  } 
 
   // Assertion: text appears inside input box or not
   async verifyText(locator: string, expected: string): Promise<void> {
@@ -153,7 +153,7 @@ export class WebUtil {
 
   // mouse hover
   async hover(locator: string): Promise<void> {
-    await this.locator(locator).hover(); 1
+    await this.locator(locator).hover(); 
   }
 
   // Double click
@@ -161,7 +161,7 @@ export class WebUtil {
     test.step("[INFO] ℹ️ action 'Double Click' performing on : "+elementName, async() =>{
       await this.locator(locator).dblclick();
     })
-  }
+  } 
 
   // Right click
   async rightClick(locator: string, elementName: string): Promise<void>{
@@ -187,7 +187,7 @@ export class WebUtil {
 
   // Take screenshot
   async takeScreenshot(path: string): Promise<void> {
-    await this.page.screenshot({ path });
+    await this.page.screenshot({path});  
   } 
 
   // Generic wait
