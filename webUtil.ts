@@ -139,7 +139,7 @@ export class WebUtil {
   // check box confirmation 
   async isChecked(locator: string): Promise<boolean> {
    return await this.locator(locator).isChecked();
-  }
+  } 
 
   // Assertion: text appears inside input box or not
   async verifyText(locator: string, expected: string): Promise<void> {
