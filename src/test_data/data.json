@@ -1,0 +1,21 @@
+[
+
+{ 
+  "username" :"admin",
+  "password" :"admin",
+  "validity" :"valid" 
+},
+ 
+{ 
+  "username" :"admin",
+  "password" :"ad123",
+  "validity" :"invalid" 
+},   
+
+{ 
+  "username" :" ",
+  "password" :" ",
+  "validity" :"invalid" 
+}
+
+]
